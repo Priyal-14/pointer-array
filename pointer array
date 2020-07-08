@@ -1,0 +1,22 @@
+#include<iostream.h>
+#include<conio.h>
+void main()
+{
+ clrscr();
+ int arr[10];
+ int i;
+ int *p;
+ p=arr;
+ cout<<"enter elements of array\n";
+   for(i=0;i<5;i++)
+   {
+	cin>>arr[i];
+   }
+   cout<<"output array is\n";
+   for(i=0;i<5;i++)
+   {
+	cout<<*p<<"\n";
+	p++;
+   }
+   getch();
+}
